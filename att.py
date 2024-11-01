@@ -14,17 +14,17 @@ def mostrar_menu():
     print("""
     ======= BIBLIOTECA =======
     --------------------------------
-    Código | Descrição             |
-    -------|-----------------------|
-    1      | Adicionar Livro       |
-    2      | Excluir Livro         |
-    3      | Adicionar Funcionário |
-    4      | Adicionar Leitor      |
-    5      | Excluir Leitor        |
-    6      | Funcionários          |
-    7      | Leitores              |
-    8      | Livros                |
-    0      | Sair                  |""")
+    |Código | Descrição            |
+    |-------|----------------------|
+    | 1     | Adicionar Livro      |
+    | 2     | Excluir Livro        |
+    | 3     | Adicionar Funcionário|
+    | 4     | Adicionar Leitor     |
+    | 5     | Excluir Leitor       |
+    | 6     | Funcionários         |
+    | 7     | Leitores             |
+    | 8     | Livros               |
+    | 0     | Sair                 |""")
 #6 = funcionarios 7 = leitores 8 = livros
 
 def adicionar_livro():
