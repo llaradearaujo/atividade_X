@@ -31,3 +31,30 @@ def adicionar_livro():
     titulo = input("Digite o título do livro: ")
     livros.append(titulo)
     print(f"Livro {titulo} adicionado com sucesso!")
+
+def excluir_livro():
+    titulo = input("Digite o título do livro que deseja excluir: ")
+    if titulo in livros:
+        livros.remove(titulo)
+        print(f"Livro {titulo} removido da biblioteca.")
+    else:
+        print(f"Livro {titulo} não encontrado.")
+
+def adicionar_funcionario():
+    nome = input("Digite o nome do funcionário: ")
+    funcionarios.append(nome)
+    print(f"Funcionário {nome} adicionado com sucesso!")
+
+def adicionar_leitor():
+    nome = input("Digite o nome do leitor: ")
+    leitores.append(nome)
+    print(f"Leitor {nome} adicionado com sucesso!")
+
+def excluir_leitor():
+    nome = input("Digite o nome do leitor que deseja excluir: ")
+    if nome in leitores:
+        leitores.remove(nome)
+        print(f"Leitor {nome} removido com sucesso!")
+    else:
+        print(f"Leitor {nome} não encontrado.")
+
