@@ -58,3 +58,31 @@ def excluir_leitor():
     else:
         print(f"Leitor {nome} não encontrado.")
 
+while True:
+    mostrar_menu()
+    opcao = input("\nEscolha uma opção: ")
+
+    if opcao == "1":
+        adicionar_livro()
+    elif opcao == "2":
+        excluir_livro()
+    elif opcao == "3":
+        adicionar_funcionario()
+    elif opcao == "4":
+        adicionar_leitor()
+    elif opcao == "5":
+        excluir_leitor()
+    elif opcao == "6":
+        print(funcionarios)
+    elif opcao == "7":
+        print(leitores)
+    elif opcao == "8":
+        print("\nLIVROS CADASTRADOS:")
+        print(livros if livros else "Nenhum livro cadastrado.")
+    elif opcao == "0":
+        print("Saindo do sistema...")
+        break
+    else:
+        print("Opção inválida! Tente novamente.")
+
+    input("\nPressione Enter para continuar...")
